@@ -1,0 +1,312 @@
+@font-face {
+    font-family: "Fraunces sans-serif";
+    src: url(../fonts/Catamaran-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Barlow sans-serif ";
+    src: url(../fonts/Barlow-Regular.ttf);
+    font-weight: 400;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Catamaran-Black sans_serif";
+    font-family: "Barlow sans-serif ";
+    font-size: 18px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    
+    .logo{
+        &__img{
+            display: block;
+        }
+    }
+
+    .nav{
+        list-style: none;
+        display: flex;
+
+        &__item{
+            margin-right: 40px;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+        }
+        
+        &__link{
+            text-decoration: none;
+            color: #83888F;
+        }
+    }
+}
+// Great styles
+.great{
+    padding: 70px 60px;
+    background: url(../img/bacground_img.png);
+    width: 1200px;
+    height: 500px;
+    border-radius: 10px;
+
+    &__title{
+        width: 493px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+    }
+
+    &__title--madifair{
+        font-family: 'Fraunces', serif;
+    }
+
+    &__description{
+        padding: 40px 0;
+    width: 385px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+
+    &__link{
+        text-decoration: none;
+        padding: 10px 20px;
+        background: #0E8784;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+    &__link--madifair{
+        font-family: 'Fraunces', serif;
+    }
+}
+// Planalto
+.planalto{
+    background-image: url(../img/colections.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+
+    &_item{
+        display: inline-block;
+        padding: 200px 20px;
+    }
+
+    &_img{
+        padding-bottom: 50px;
+        width: 256px;
+        height: 255px;
+    }
+    &_title{
+        width: 255px;
+        height: 32px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333D4B;
+    }
+    &_description{
+        width: 255px;
+        height: 78px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+    }
+}
+// Choose
+.choose{
+    margin-bottom: 300px;
+    text-align: center;
+    width: 1200px;
+    height: 500px;
+    background-color: #0a111bd7;
+    border-radius: 10px;
+
+    &_title{
+        padding-top: 70px;
+        padding-bottom: 40px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+    &_description{
+        margin: 0 319px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    &_items{
+        justify-content: space-around;
+        display: flex;
+        padding-top: 9%;
+        padding-left: 30px;
+    }
+    &_item{
+        padding: 0 40px;
+        padding-top: 1%;
+        width: 300px;
+        height: 330px;
+        background: #0E8784;
+        border-radius: 8px;
+    }
+    &_item_img{
+        width: 50px;
+        padding: 30px 0;
+    }
+    &_item_title{
+        padding: 30px 0;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+    &_item_description{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+}
+// Block
+.block{
+    padding: 40px 120px;
+    padding-bottom: 200px;
+
+    &_title{
+        padding-bottom: 70px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+    &_items{
+        display: flex;
+        padding: 50px 0;
+    }
+    &_item{
+        padding-right: 50px;
+    }
+    &_item_number{
+        width: 90px;
+        height: 70px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+    &_item_number--madifair{
+        font-family: 'Fraunces', serif;
+    }
+    &_item_title{
+        padding: 42px 0;
+        width: 205px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+    &_item_title--madifair{
+        font-family: 'Fraunces', serif;
+    }
+    &_item_description{
+        width: 265px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+    &_link{
+        text-decoration: none;
+        padding: 15px 31px;
+        background: #0E8784;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+}
+// Footer
+.footer{
+    margin-bottom: 30px;
+    background: #2C343E;
+    align-items: center;
+    justify-content: center;
+    
+    &_items{
+        display: flex;
+    }
+    &_item_link{
+        padding: 50px 0;
+    }
+    &_item{
+        padding-left: 50px;
+        list-style: none;
+        display: flex;
+    }
+    &_item_nav{
+        margin: 51px 30px;
+    }
+    &_item_link{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+    }
+    &_twitter{
+        display: flex;
+        padding: 50px;
+        padding-left: 250px;
+    }
+    &_twitter_img{
+        width: 24px;
+        height: 24px;
+        margin-right: 30px;
+    }
+}
