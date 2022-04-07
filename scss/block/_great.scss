@@ -5,6 +5,21 @@
     height: 500px;
     border-radius: 10px;
 
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+      
+        padding: 70px 60px;
+        background: url(../../img/Bitmap.png);
+        width: 1200px;
+        height: 500px;
+        border-radius: 10px;
+    }
+
     &__title{
         width: 493px;
         font-weight: 900;

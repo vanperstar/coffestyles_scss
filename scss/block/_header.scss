@@ -4,9 +4,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
-    
     .logo{
-        &__img{
+        text-decoration: none;
+        object-fit: fill;
+        .header__logo__img{
             display: block;
         }
     }
