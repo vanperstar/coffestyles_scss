@@ -1,0 +1,35 @@
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    
+    .logo{
+        &__img{
+            display: block;
+        }
+    }
+
+    .nav{
+        list-style: none;
+        display: flex;
+
+        &__item{
+            margin-right: 40px;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+        }
+        
+        &__link{
+            text-decoration: none;
+            color: #83888F;
+            &:active{
+                color: #333D4B;
+            }
+        }
+    }
+}

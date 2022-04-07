@@ -1,0 +1,49 @@
+.great{
+    padding: 70px 60px;
+    background: url(../../img/Bitmap.png);
+    width: 1200px;
+    height: 500px;
+    border-radius: 10px;
+
+    &__title{
+        width: 493px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+    }
+
+    &__title--madifair{
+        font-family: 'Fraunces', serif;
+    }
+
+    &__description{
+        padding: 40px 0;
+    width: 385px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+
+    &__link{
+        text-decoration: none;
+        padding: 10px 20px;
+        background: #0E8784;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        &:active{
+            background: #66D2CF;
+        }
+    }
+
+    &__link--madifair{
+        font-family: 'Fraunces', serif;
+    }
+}

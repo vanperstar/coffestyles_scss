@@ -1,0 +1,46 @@
+.footer{
+    margin-bottom: 30px;
+    background: #2C343E;
+    align-items: center;
+    justify-content: center;
+    
+    &_items{
+        display: flex;
+    }
+    &_item_link{
+        padding: 50px 0;
+    }
+    &_item{
+        padding-left: 50px;
+        list-style: none;
+        display: flex;
+    }
+    &_item_nav{
+        margin: 51px 30px;
+    }
+    &_item_link{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        &:active{
+            color: #FEFCF7;
+        }
+    }
+    &_twitter{
+        display: flex;
+        padding: 50px;
+        padding-left: 250px;
+    }
+    &_twitter_img{
+        width: 24px;
+        height: 24px;
+        margin-right: 30px;
+        &:active{
+            background: #FDD6BA;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Catamaran-Black sans_serif";
+    font-family: "Barlow sans-serif ";
+    font-size: 18px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 50px;
+}

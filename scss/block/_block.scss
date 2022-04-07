@@ -1,0 +1,62 @@
+.block{
+    padding: 40px 120px;
+    padding-bottom: 200px;
+
+    &_title{
+        padding-bottom: 70px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+    &_items{
+        display: flex;
+        padding: 50px 0;
+    }
+    &_item{
+        padding-right: 50px;
+    }
+    &_item_number{
+        width: 90px;
+        height: 70px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+    &_item_number--madifair{
+        font-family: 'Fraunces', serif;
+    }
+    &_item_title{
+        padding: 42px 0;
+        width: 205px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+    &_item_title--madifair{
+        font-family: 'Fraunces', serif;
+    }
+    &_item_description{
+        width: 265px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+    &_link{
+        text-decoration: none;
+        padding: 15px 31px;
+        background: #0E8784;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        &:active{
+            background: #66D2CF;
+        }
+    }
+}
