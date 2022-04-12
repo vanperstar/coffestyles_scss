@@ -743,4 +743,8 @@ body {
 .footer_twitter_img:active {
   background: #FDD6BA;
 }
+
+.footer_link {
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */

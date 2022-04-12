@@ -11,7 +11,6 @@
 <body>
     <header class="header container">
         <a class="header__logo logo" href="#">
-            <!-- <img class="header__logo__img" src="./img/logo.png" alt="logo"> -->
             <img class="header__logo__img" src="./img/header-logo-1x.png" srcset="./img/header-logo-1x.png, ./img/header-logo-2x.png" alt="logo" width="236" height="26">
         </a>
         <ul class="header__nav nav">
@@ -39,22 +38,34 @@
          <section class="planalto container">
             <div class="planalto_items">
                 <div class="planalto_item">
-                    <img class="planalto_img" src="./img/espresso.png" srcset="./img/espresso.png 1x, ./img/espresso.png 2x" alt="espresso">
+                    <picture>
+                        <source src="./img/espresso.webp.webp"  srcset="./img/espresso.webp.webp 1x, ./img/espresso@2x.webp.webp 2x">
+                        <img class="planalto_img" src="./img/espresso.png" alt="espresso">
+                    </picture>
                     <h4 class="planalto_title">Gran Espresso</h4>
                     <p class="planalto_description">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
                 </div>
                 <div class="planalto_item">
-                    <img class="planalto_img" src="./img/planolto.png" srcset="./img/planolto.png 1x, ./img/planolto.png 2x" alt="planalto">
+                    <picture>
+                        <source src="./img/planolto.webp.webp" srcset="./img/planolto.webp.webp 1x, ./img/planolto@2x.webp.webp 2x">
+                        <img class="planalto_img" src="./img/planolto.png" alt="planalto">
+                    </picture>
                     <h4 class="planalto_title">Planalto</h4>
                     <p class="planalto_description">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
                 </div>
                 <div class="planalto_item">
-                    <img class="planalto_img" src="./img/picollo.png" srcset="./img/picollo.png 1x, ./img/picollo.png 2x" alt="picolla">
+                    <picture>
+                        <source src="./img/picollo.webp.webp" srcset="./img/picollo.webp.webp 1x, ./img/picollo@2x.webp.webp 2x">
+                        <img class="planalto_img" src="./img/picollo.png" alt="picolla">
+                    </picture>
                     <h4 class="planalto_title">Piccollo</h4>
                     <p class="planalto_description">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
                 </div>
                 <div class="planalto_item">
-                    <img class="planalto_img" src="./img/danche.png" srcset="./img/danche.png 1x, ./img/danche.png 2x" alt="danche">
+                    <picture>
+                        <source src="./img/danche.webp.webp" srcset="./img/danche.webp.webp 1x, ./img/danche@2x.webp.webp 2x">
+                        <img class="planalto_img" src="./img/danche.png" alt="danche">
+                    </picture>
                     <h4 class="planalto_title">Danche</h4>
                     <p class="planalto_description">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
                 </div>
@@ -130,10 +141,10 @@
                     </li>
                 </ul>
                 <div class="footer_twitter">
-                    <a href="#">
-                        <img class="footer_twitter_img" src="./img/fecebook.png" srcset="./img/fecebook.png 1x, ./img/fecebook2x.png 2x" alt="fecebook">
-                        <img class="footer_twitter_img" src="./img/twitter.png" srcset="./img/twitter.png 1x, ./img/twitter2x.png 2x" alt="twitter">
-                        <img class="footer_twitter_img" src="./img/instagram.png" srcset="./img/instagram.png 1x, ./img/instagram2x.png 2x" alt="">
+                    <a class="footer_link" href="#">
+                        <img class="footer_twitter_img" src="./img/fecebook.svg" alt="fecebook">
+                        <img class="footer_twitter_img" src="./img/twitter.svg" alt="twitter">
+                        <img class="footer_twitter_img" src="./img/instagram.svg" alt="instagram">
                     </a>
                 </div>
             </div>
